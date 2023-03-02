@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Internal.Services.Movements
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5DA8B40E-6590-42E2-A7CA-5F990C71D067}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Internal.Services.Movements.IntegrationTests", "Internal.Services.Movements.IntegrationTests\Internal.Services.Movements.IntegrationTests.csproj", "{A3D8EC0A-4836-4C6D-BF4D-EFD5E713C473}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Internal.Services.Movements.IntegrationTests", "Internal.Services.Movements.IntegrationTests\Internal.Services.Movements.IntegrationTests.csproj", "{A3D8EC0A-4836-4C6D-BF4D-EFD5E713C473}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
