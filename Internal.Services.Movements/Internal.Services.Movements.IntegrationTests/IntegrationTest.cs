@@ -50,9 +50,10 @@ namespace Internal.Services.Movements.IntegrationTests
       var pageSize = 20;
       var account = AccountHelper.CustomerAccount;
       var internalFilterType = Data.Models.Enums.EnumMovementType.FiscalTransfer;
+      var movementType = AccountHelper.FiscalTransferAccount;
 
       //Act
-      var response = GetMovements(internalFilterType, pageNumber, pageSize, account, null, AccountHelper.FiscalTransferAccount, null, null, null);
+      var response = GetMovements(internalFilterType, pageNumber, pageSize, account, null, movementType, null, null, null);
 
       //Assert
       var movements = (await response).Movements;
